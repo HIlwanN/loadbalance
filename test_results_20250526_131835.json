@@ -1,0 +1,70 @@
+{
+  "round-robin": {
+    "endpoint": "round-robin",
+    "single_request": 1044.813632965088,
+    "load_test": {
+      "total_requests": 5,
+      "avg_response_time": 1010.2649688720703,
+      "max_response_time": 1011.88063621521,
+      "min_response_time": 1008.7854862213135,
+      "execution_time": 9.01186490058899
+    },
+    "stress_test": {
+      "total_requests": 10,
+      "errors": 0,
+      "requests_per_second": 0.49986174354346163,
+      "execution_time": 20.005531787872314
+    }
+  },
+  "least-conn": {
+    "endpoint": "least-conn",
+    "single_request": 1010.3504657745361,
+    "load_test": {
+      "total_requests": 5,
+      "avg_response_time": 1010.5466365814209,
+      "max_response_time": 1010.9865665435791,
+      "min_response_time": 1010.0226402282715,
+      "execution_time": 9.013111114501953
+    },
+    "stress_test": {
+      "total_requests": 10,
+      "errors": 0,
+      "requests_per_second": 0.49991146701867545,
+      "execution_time": 20.003541946411133
+    }
+  },
+  "weighted-least-conn": {
+    "endpoint": "weighted-least-conn",
+    "single_request": 1014.8055553436279,
+    "load_test": {
+      "total_requests": 5,
+      "avg_response_time": 1014.528751373291,
+      "max_response_time": 1031.1896800994873,
+      "min_response_time": 1009.9401473999023,
+      "execution_time": 9.013232946395874
+    },
+    "stress_test": {
+      "total_requests": 10,
+      "errors": 0,
+      "requests_per_second": 0.4997686086536467,
+      "execution_time": 20.009259939193726
+    }
+  },
+  "ip-hash": {
+    "endpoint": "ip-hash",
+    "single_request": 1013.1251811981201,
+    "load_test": {
+      "total_requests": 5,
+      "avg_response_time": 1014.0350341796875,
+      "max_response_time": 1029.7021865844727,
+      "min_response_time": 1009.4263553619385,
+      "execution_time": 9.01330280303955
+    },
+    "stress_test": {
+      "total_requests": 10,
+      "errors": 0,
+      "requests_per_second": 0.49984965674055554,
+      "execution_time": 20.00601553916931
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "load_balancing_results": {
+        "round-robin": {
+            "total_requests": 1000,
+            "avg": 47.54151248931885,
+            "max": 195.6496238708496,
+            "min": 15.749692916870117
+        }
+    },
+    "server_distribution": {
+        "web1": 1673,
+        "web2": 1672,
+        "web3": 1672
+    },
+    "total_requests": 5017,
+    "execution_time": 18.41759204864502,
+    "timestamp": "20250526_115329"
+}

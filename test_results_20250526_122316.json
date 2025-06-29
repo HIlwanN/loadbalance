@@ -1,0 +1,14 @@
+{
+  "round-robin": {
+    "error": "Single request test failed"
+  },
+  "least-conn": {
+    "error": "Single request test failed"
+  },
+  "weighted-least-conn": {
+    "error": "Single request test failed"
+  },
+  "ip-hash": {
+    "error": "Single request test failed"
+  }
+}

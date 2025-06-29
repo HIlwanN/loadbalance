@@ -1,0 +1,6 @@
+requests>=2.31.0
+websockets>=12.0
+statistics>=1.0.3.5
+python-dotenv>=1.0.0
+flask>=3.0.0
+flask-socketio>=5.3.6 

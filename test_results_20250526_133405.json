@@ -1,0 +1,70 @@
+{
+  "round-robin": {
+    "endpoint": "round-robin",
+    "single_request": 1035.175085067749,
+    "load_test": {
+      "total_requests": 5,
+      "avg_response_time": 1024.1305828094482,
+      "max_response_time": 1035.320520401001,
+      "min_response_time": 1013.6311054229736,
+      "execution_time": 20.54347515106201
+    },
+    "stress_test": {
+      "total_requests": 10,
+      "errors": 0,
+      "requests_per_second": 0.24452940243905005,
+      "execution_time": 40.894877672195435
+    }
+  },
+  "least-conn": {
+    "endpoint": "least-conn",
+    "single_request": 1013.1440162658691,
+    "load_test": {
+      "total_requests": 5,
+      "avg_response_time": 1027.3667812347412,
+      "max_response_time": 1040.5919551849365,
+      "min_response_time": 1012.4185085296631,
+      "execution_time": 20.589361906051636
+    },
+    "stress_test": {
+      "total_requests": 10,
+      "errors": 0,
+      "requests_per_second": 0.24377486745527951,
+      "execution_time": 41.02145600318909
+    }
+  },
+  "weighted-least-conn": {
+    "endpoint": "weighted-least-conn",
+    "single_request": 1013.6370658874512,
+    "load_test": {
+      "total_requests": 5,
+      "avg_response_time": 1018.9711093902588,
+      "max_response_time": 1029.8640727996826,
+      "min_response_time": 1013.0367279052734,
+      "execution_time": 20.608087301254272
+    },
+    "stress_test": {
+      "total_requests": 10,
+      "errors": 0,
+      "requests_per_second": 0.2440175015238062,
+      "execution_time": 40.98066711425781
+    }
+  },
+  "ip-hash": {
+    "endpoint": "ip-hash",
+    "single_request": 1031.3923358917236,
+    "load_test": {
+      "total_requests": 5,
+      "avg_response_time": 1030.4261684417725,
+      "max_response_time": 1053.4517765045166,
+      "min_response_time": 1012.6321315765381,
+      "execution_time": 20.59037756919861
+    },
+    "stress_test": {
+      "total_requests": 10,
+      "errors": 0,
+      "requests_per_second": 0.24428851145185976,
+      "execution_time": 40.93520379066467
+    }
+  }
+}
